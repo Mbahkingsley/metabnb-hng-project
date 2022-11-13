@@ -53,10 +53,14 @@ const Home = () => {
               </div>
           </div>
        </div>
-       <div className="w-100 d-flex justify-content-around pt-2" style={{backgroundColor:"#a02279",marginTop:"9rem",height:"4.1rem"}}>
-        <img style={{height:"45px",width:"200px"}} src={icon1} alt="" />
-        <img style={{height:"45px",width:"200px"}} src={icon3} alt="" />
-        <img style={{height:"45px",width:"200px"}} src={icon2} alt="" />
+       <div className="mw-100 d-flex justify-content-around flex-wrap align-items-center" style={{backgroundColor:"#a02279",marginTop:"9rem",height:"5rem"}}>
+        <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon1} alt="" />
+        <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon3} alt="" />
+        <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon2} alt="" />
+       </div>
+       
+       <div>
+        
        </div>
     </div>
   );
