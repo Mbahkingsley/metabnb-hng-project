@@ -53,15 +53,18 @@ const Home = () => {
               </div>
           </div>
        </div>
-       <div className="mw-100 d-flex justify-content-around flex-wrap align-items-center" style={{backgroundColor:"#a02279",marginTop:"9rem",height:"5rem"}}>
+       <div className="mw-100 d-flex justify-content-around flex-wrap align-items-center" style={{backgroundColor:"#a02279",marginTop:"9rem",height:"5rem",marginBottom:"9rem"}}>
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon1} alt="" />
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon3} alt="" />
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon2} alt="" />
        </div>
-       
-       <div>
-        
+       <div style={{backgroundColor:"#a02279",height:"20vh"}}>
+        <div >
+          <h2>Metabnb NFTs</h2>
+        </div>
+        <img src="" alt="" />
        </div>
+    
     </div>
   );
 };

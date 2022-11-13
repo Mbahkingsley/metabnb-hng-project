@@ -2,11 +2,11 @@ import frame11 from "../images/frame11.png";
 
 const Card = (props) => {
   return (
-    <div style={{width:"292px",height:"372px",paddingTop:"0.03px",borderRadius:"15px"}} className="bg-secondary m-2 ">
+    <div style={{width:"282px",height:"372px",paddingTop:"0.03px",borderRadius:"15px",paddingRight:"10px"}} className="border mt-2 me-2 mb-3 ">
       <div className="m-3 ">
-      <img style={{width:"260px",height:"265"}} src={props.name} alt="" />
+      <img style={{width:"250px",height:"255"}} src={props.name} alt="" />
       </div>
-      <div style={{width:"260px",fontSize:".9em",height:"4.4rem"}} className="d-flex justify-content-between bg-primary ms-3">
+      <div style={{width:"251px",fontSize:".9em",height:"4.4rem"}} className="d-flex justify-content-between ms-3">
           <div>
             <p className="mb-1">Desert king</p>
             <p className="mb-1">2345km away</p>
