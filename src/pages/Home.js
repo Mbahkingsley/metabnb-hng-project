@@ -27,7 +27,7 @@ const Home = () => {
        <div style={{paddingTop:"100px"}} className="container ">
        
           <div className="row">
-              <div style={{height:"420px"}} className="col-xs-12 col-md-6 col-xl-6 bg-primary d-flex flex-column justify-content-between">
+              <div style={{height:"420px"}} className="col-xs-12 col-md-6 col-xl-6 d-flex flex-column justify-content-between">
               <h1>
               Rent a{" "}
               <span style={{ color: "#a02279", fontWeight: "bold" }}>
@@ -51,9 +51,9 @@ const Home = () => {
             </p>
 
                   <Form className="d-flex">
-                  <Form.Control type="search" placeholder="Search" className="" />
+                  <Form.Control type="search" placeholder="Search" />
                   <Button style={{backgroundColor:"#a02279"}}
-                    className="rounded-0 rounded-end w-25"
+                    className="rounded-0 rounded-end w-25 border-0"
                     size="lg" 
                   >
                     Search
@@ -61,13 +61,13 @@ const Home = () => {
                 </Form>
               </div>
               
-              <div style={{height:"410px",paddingLeft:"8%"}} className="col-xs-12 col-md-6 col-xl-6 bg-secondary pt-5 ">
+              <div style={{height:"410px",paddingLeft:"8%"}} className="col-xs-12 col-md-6 col-xl-6 pt-5 ">
                 <img className="img-fluid mw-100 h-auto" src={frame1} alt="" />
                 
               </div>
           </div>
        </div>
-       <div className="mw-100 d-flex justify-content-around flex-wrap align-items-center" style={{backgroundColor:"#a02279",marginTop:"9rem",height:"5rem",marginBottom:"9rem"}}>
+       <div className="mw-100 d-flex justify-content-around flex-wrap align-items-center" style={{backgroundColor:"#a02279",marginTop:"7rem",height:"5rem",marginBottom:"9rem"}}>
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon1} alt="" />
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon3} alt="" />
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon2} alt="" />

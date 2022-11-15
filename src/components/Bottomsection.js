@@ -11,10 +11,10 @@ const Bottomsection = () => {
           <div className='col-xl-4 col-md-6 col-xs-6 '>
           <h1 className='text-white mb-5'>Metabnb NFTs</h1>
             
-            <p style={{width:"20rem",height:"8.5rem",fontSize:"1.4em",marginBottom:"20px"}}>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.
+            <p style={{width:"20rem",height:"8.5rem",fontSize:"1.4em",marginBottom:"30px"}}>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.
             </p>
             
-            <Button style={{backgroundColor:"#ffffff",color:"#a02279"}} className="border-0 btn-lg mt-5 pt-1">Learn more</Button>
+            <Button style={{backgroundColor:"#ffffff"}} className="border-0 btn-lg mt-5 pt-1"><a style={{color:"#a02279"}} className='text-decoration-none' href="placetostay">Learn more</a></Button>
           </div>
           <div className="col-xl-7 col-md-6 col-xs-6">
             <img  className='img-fluid mw-100 h-auto mt-0 d-none d-lg-block' width={"550px"} src={frame2} alt="" />
