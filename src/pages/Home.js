@@ -5,13 +5,27 @@ import frame1 from "../images/frame1.png";
 import icon1 from "../images/icon1.png";
 import icon3 from "../images/icon3.png";
 import icon2 from "../images/icon2.png";
+import frame3 from "../images/frame3.png";
+import frame4 from "../images/frame4.png";
+import frame5 from "../images/frame5.png";
+import frame6 from "../images/frame6.png";
+import frame7 from "../images/frame7.png";
+import frame8 from "../images/frame8.png";
+import frame9 from "../images/frame9.png";
+import frame10 from "../images/frame10.png";
+import Card from '../components/Card';
+import Bottomsection from '../components/Bottomsection';
+import Footer from '../components/Footer';
+
 
 const Home = () => {
+  
   return (
     <div>
-
+        
         <Header />
        <div style={{paddingTop:"100px"}} className="container ">
+       
           <div className="row">
               <div style={{height:"420px"}} className="col-xs-12 col-md-6 col-xl-6 bg-primary d-flex flex-column justify-content-between">
               <h1>
@@ -40,7 +54,7 @@ const Home = () => {
                   <Form.Control type="search" placeholder="Search" className="" />
                   <Button style={{backgroundColor:"#a02279"}}
                     className="rounded-0 rounded-end w-25"
-                    size="lg"
+                    size="lg" 
                   >
                     Search
                   </Button>
@@ -58,14 +72,21 @@ const Home = () => {
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon3} alt="" />
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon2} alt="" />
        </div>
-       <div style={{backgroundColor:"#a02279",height:"20vh"}}>
-        <div >
-          <h2>Metabnb NFTs</h2>
-        </div>
-        <img src="" alt="" />
-       </div>
-    
+       
+       <div className='d-flex flex-wrap justify-content-center'>
+          <Card name={frame10} />
+          <Card name={frame3} />
+          <Card name={frame4} />
+          <Card name={frame5} />
+          <Card name={frame6} />
+          <Card name={frame7} />
+          <Card name={frame8} />
+          <Card name={frame9} />
+      </div>
+      <Bottomsection />
+      <Footer />
     </div>
+
   );
 };
 
