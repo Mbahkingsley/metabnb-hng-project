@@ -67,13 +67,15 @@ const Home = () => {
               </div>
           </div>
        </div>
-       <div className="mw-100 d-flex justify-content-around flex-wrap align-items-center" style={{backgroundColor:"#a02279",marginTop:"7rem",height:"5rem",marginBottom:"9rem"}}>
+       <div className="mw-100 d-flex justify-content-around flex-wrap align-items-center" style={{backgroundColor:"#a02279",marginTop:"7rem",height:"5rem",marginBottom:"5rem"}}>
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon1} alt="" />
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon3} alt="" />
         <img className="img-fluid mw-100 h-auto" style={{height:"45px",width:"180px"}} src={icon2} alt="" />
        </div>
-       
+       <h1 style={{fontSize:"3.7em",fontWeight:"800"}} className="text-center mb-4">Inspiration for your next adventure</h1>
        <div className='d-flex flex-wrap justify-content-center'>
+
+        
           <Card name={frame10} />
           <Card name={frame3} />
           <Card name={frame4} />
