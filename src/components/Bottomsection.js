@@ -16,7 +16,7 @@ const Bottomsection = () => {
             <Button style={{backgroundColor:"#ffffff"}} className="border-0 btn-lg mt-5 pt-1"><a style={{color:"#a02279"}} className='text-decoration-none' href="placetostay">Learn more</a></Button>
           </div>
           <div className="col-xl-7 col-md-6 col-xs-6">
-            <img style={{width:"550px"}}  className='img-fluid mw-100 h-auto mt-0 ' src={frame2} alt="" />
+            <img style={{width:"550px"}}  className='img-fluid mw-100 h-auto mt-0 ms-2' src={frame2} alt="" />
 
           </div>
 

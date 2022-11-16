@@ -27,7 +27,7 @@ const Home = () => {
        <div style={{paddingTop:"100px"}} className="container ">
        
           <div className="row">
-              <div style={{height:"420px"}} className="col-xs-12 col-md-6 col-xl-6 d-flex flex-column justify-content-between">
+              <div style={{height:"420px"}} className="col-xs-12 col-md-6 col-xl-6 d-flex flex-column justify-content-around">
               <h1>
               Rent a{" "}
               <span style={{ color: "#a02279", fontWeight: "bold" }}>
@@ -61,7 +61,7 @@ const Home = () => {
                 </Form>
               </div>
               
-              <div style={{height:"410px",paddingLeft:"8%"}} className="col-xs-12 col-md-6 col-xl-6 pt-5 ">
+              <div style={{height:"410px",paddingLeft:"8%",}} className="col-xs-12 col-md-6 col-xl-6 pt-3 ">
                 <img className="img-fluid mw-100 h-auto" src={frame1} alt="" />
                 
               </div>

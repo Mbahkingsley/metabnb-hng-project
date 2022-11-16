@@ -41,20 +41,22 @@ const Header = () => {
           </div>
           </Modal.Body>
       </Modal>
-    <header className="container d-flex flex-wrap justify-content-between mt-4">
-      <div>
-        <img className="img-fluid mw-100 h-auto mt-3" src={logo} alt="metabnb logo" />
-      </div>
-      <button style={{backgroundColor:"#a02279"}} type="button" class="btn btn-primary border-0 d-lg-none btn-sm h-5 mt-4 mw-100" onClick={showEvent}>Connect wallet</button>
-      <div style={{width:"60%"}} className="pt-2 d-flex justify-content-around align-items-center flex-wrap ">
-        <a style={{fontSize:"2.6vw"}} className="text-decoration-none text-secondary" href="*">Home</a>
-        <a style={{fontSize:"2.6vw"}} className="text-decoration-none text-secondary" href="*">Place to Stay</a>
-        <a style={{fontSize:"2.6vw"}} className="text-decoration-none text-secondary" href="*">NFTs</a>
-        <a style={{fontSize:"2.6vw"}} className="text-decoration-none text-secondary" href="*">Community</a>
-      </div>
-      
-      <button style={{backgroundColor:"#a02279"}} type="button" class="btn btn-primary border-0 d-none d-lg-block" onClick={showEvent}>Connect wallet</button>
-    </header>
+    <div style={{width:"100%",backgroundColor:"white",height:"8rem"}} className="fixed-top" >
+      <header className="container d-flex flex-wrap justify-content-between mt-4 ">
+        <div>
+          <img className="img-fluid mw-100 h-auto mt-3" src={logo} alt="metabnb logo" />
+        </div>
+        <button style={{backgroundColor:"#a02279"}} type="button" class="btn btn-primary border-0 d-lg-none btn-sm h-5 mt-4 mw-100" onClick={showEvent}>Connect wallet</button>
+        <div style={{width:"60%"}} className="pt-2 d-flex justify-content-around align-items-center flex-wrap ">
+          <a style={{fontSize:"2.6vw"}} className="text-decoration-none text-secondary" href="*">Home</a>
+          <a style={{fontSize:"2.6vw"}} className="text-decoration-none text-secondary" href="*">Place to Stay</a>
+          <a style={{fontSize:"2.6vw"}} className="text-decoration-none text-secondary" href="*">NFTs</a>
+          <a style={{fontSize:"2.6vw"}} className="text-decoration-none text-secondary" href="*">Community</a>
+        </div>
+        
+        <button style={{backgroundColor:"#a02279"}} type="button" class="btn btn-primary border-0 d-none d-lg-block" onClick={showEvent}>Connect wallet</button>
+      </header>
+    </div>
     </div>
   );
 };

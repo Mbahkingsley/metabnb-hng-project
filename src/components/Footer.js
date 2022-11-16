@@ -6,7 +6,7 @@ import twitter from '../images/twitter.png';
 const Footer = () => {
   return (
     <div>
-      <footer style={{backgroundColor:"#1d1d1e"}} className="d-flex justify-content-around pt-5">
+      <footer style={{backgroundColor:"#1d1d1e"}} className="d-flex justify-content-around pt-5 d-xs-column">
         
           <div className='d-flex flex-column justify-content-between flex-wrap'>
             <img className='img-fluid mw-100 h-auto' src={group} alt="" />
