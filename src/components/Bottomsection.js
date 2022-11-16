@@ -1,7 +1,6 @@
 import frame2 from '../images/frame2.png'
 import { Button } from 'react-bootstrap';
-import view1 from '../images/view1.png';
-import view2 from '../images/view2.png';
+
 
 const Bottomsection = () => {
   return (
@@ -17,17 +16,18 @@ const Bottomsection = () => {
             <Button style={{backgroundColor:"#ffffff"}} className="border-0 btn-lg mt-5 pt-1"><a style={{color:"#a02279"}} className='text-decoration-none' href="placetostay">Learn more</a></Button>
           </div>
           <div className="col-xl-7 col-md-6 col-xs-6">
-            <img  className='img-fluid mw-100 h-auto mt-0 d-none d-lg-block' width={"550px"} src={frame2} alt="" />
-            <div className='d-lg-none'>
-              <img style={{width:"15rem",height:"6rem"}} className='img-fluid mw-100 h-auto mt-0 ' src={view1} alt="" />
+            <img style={{width:"550px"}}  className='img-fluid mw-100 h-auto mt-0 ' src={frame2} alt="" />
+            {/* <div className='d-lg-none'>
+              <img style={{width:"rem",height:"6rem"}} className='img-fluid mw-100 h-auto mt-0 ' src={view1} alt="" />
               <img style={{width:"15rem",height:"6rem"}} className='img-fluid mw-100 h-auto mt-0 ' src={view2} alt="" />
               
-            </div>  
+            </div>   */}
           </div>
 
         </div>
       </div>
     </div>
+    
   )
 }
 

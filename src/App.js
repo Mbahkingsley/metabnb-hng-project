@@ -8,7 +8,7 @@ import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
-    <div>
+    <div style={{fontFamily:"Red Rose"}}>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
