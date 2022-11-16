@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 const Bottomsection = () => {
   return (
     <div>
-      <div className='container-fluid'>
+      <div className='container-fluid mt-5'>
         <div style={{backgroundColor:"#a02279",height:"45rem"}} className='row justify-content-around align-items-center'>
           <div className='col-xl-4 col-md-6 col-xs-6 '>
           <h1 className='text-white mb-5'>Metabnb NFTs</h1>
